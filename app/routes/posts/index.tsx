@@ -1,5 +1,6 @@
 import { json } from "@remix-run/node";
-import { Link, useLoaderData } from "@remix-run/react";
+import { useLoaderData } from "@remix-run/react";
+import oliveOyl from '../../styles/oliveoyl.png';
 
 import { getPosts } from "~/models/post.server";
 
@@ -10,20 +11,9 @@ export const loader = async () => {
 export default function Posts() {
   const { posts } = useLoaderData<typeof loader>();
   return (
-    <main>
-      <h1>Posts</h1>
-      <ul>
-        {posts.map((post) => (
-          <li key={post.slug}>
-            <Link
-              to={post.slug}
-              className="text-blue-600 underline"
-            >
-              {post.title}
-            </Link>
-          </li>
-        ))}
-      </ul>
+    <main className="relative min-h-screen flex items-center justify-center px-8 py-6">
+      <h1>The posts will go here!</h1>
+      <img src={oliveOyl} className="olive-oyl"></img>
     </main>
   );
 }
