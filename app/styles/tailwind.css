@@ -59,6 +59,8 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
+  background-image: url('./hummy_banner_orange.svg');
+  background-size: cover;
 }
 
 /*
@@ -336,6 +338,11 @@ menu {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 2rem;
 }
 
 /*
@@ -1186,4 +1193,11 @@ video {
   50% {
     color: black;
   }
+}
+
+.olive-oyl {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  width: 40px;
 }
