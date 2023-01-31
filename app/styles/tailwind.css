@@ -59,6 +59,9 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
+}
+
+main {
   background-image: url('./hummy_banner_orange.svg');
   background-size: cover;
 }
@@ -333,7 +336,6 @@ legend {
 }
 
 ol,
-ul,
 menu {
   list-style: none;
   margin: 0;
@@ -545,6 +547,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mt-05 {
+  margin-top: .5rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -677,6 +683,10 @@ video {
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
+.rounded-lg {
+  border-radius: 1.25rem;
+}
+
 .rounded-md {
   border-radius: 0.375rem;
 }
@@ -754,6 +764,11 @@ video {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -774,6 +789,14 @@ video {
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .px-4 {
@@ -1200,4 +1223,8 @@ video {
   bottom: 24px;
   right: 24px;
   width: 40px;
+}
+
+.card-white {
+  background-color: rgb(255 255 255 / 0.5);
 }
