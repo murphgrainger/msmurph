@@ -14,7 +14,7 @@ export default function Index() {
             to="/school"
             className="text-xl mt-05"
           >
-        <button className="p-4 bg-black rounded-md text-white">School v0.1.0</button>
+        <button className="p-4 bg-black rounded-md text-peach hover:bg-black">School v0.1.0</button>
           </Link>
       </div>
       <img src={oliveOyl} className="olive-oyl"></img>

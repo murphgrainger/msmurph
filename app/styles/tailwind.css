@@ -864,6 +864,11 @@ video {
   line-height: 1;
 }
 
+.text-8xl {
+  font-size: 2rem;
+}
+
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -930,6 +935,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-peach {
+  color: #fbc3b1;
 }
 
 .text-yellow-700 {
@@ -1008,6 +1017,11 @@ video {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+.hover\:bg-black:hover {
+  --tw-bg-opacity: 1;
+  color: white;
 }
 
 .hover\:bg-yellow-50:hover {
@@ -1133,7 +1147,7 @@ video {
     padding-bottom: 3.5rem;
   }
 
-  .sm\:text-8xl {
+  .md\:text-8xl {
     font-size: 6rem;
     line-height: 1;
   }
